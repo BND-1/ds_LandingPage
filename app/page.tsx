@@ -5,7 +5,7 @@ import { CasesSection } from "@/components/cases-section"
 import { DeploymentGuide } from "@/components/deployment-guide"
 import { AfterSales } from "@/components/after-sales"
 import { PaymentMethods } from "@/components/payment-methods"
-import { DeliveryTimeline } from "@/components/delivery-timeline"
+// import { DeliveryTimeline } from "@/components/delivery-timeline"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <DeploymentGuide />
       <AfterSales />
       <PaymentMethods />
-      <DeliveryTimeline />
+      {/* <DeliveryTimeline /> */}
       <Footer />
     </div>
   )

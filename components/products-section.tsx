@@ -34,7 +34,7 @@ export function ProductsSection() {
             </div>
             <div className="h-[300px] relative overflow-hidden">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/personal-server.jpg"
                 alt="DeepSeek 2.0 服务器"
                 fill
                 className="object-cover transform group-hover:scale-105 transition-transform duration-700"
@@ -124,7 +124,7 @@ export function ProductsSection() {
             </div>
             <div className="h-[300px] relative overflow-hidden">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/enterprise-server.jpg"
                 alt="DeepSeek 企业版服务器"
                 fill
                 className="object-cover transform group-hover:scale-105 transition-transform duration-700"

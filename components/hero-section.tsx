@@ -7,7 +7,7 @@ export function HeroSection() {
     <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 text-white overflow-hidden">
       <div className="absolute inset-0 opacity-30">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/placeholder.jpg"
           alt="Server Background"
           fill
           className="object-cover"
@@ -55,7 +55,7 @@ export function HeroSection() {
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 立即购买
               </Button>
-              <Button size="lg" variant="outline" className="border-white/70 text-white hover:bg-white/10 transition-all">
+              <Button size="lg" variant="outline" className="border-white/70 text-white hover:bg-white/10 transition-all backdrop-blur-sm bg-white/5 shadow-lg hover:border-white hover:shadow-white/20">
                 了解更多
                 <ChevronRight className="ml-1 h-4 w-4" />
               </Button>
@@ -75,7 +75,7 @@ export function HeroSection() {
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-blue-500/20 border border-blue-500/30">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/placeholder.jpg"
                 alt="DeepSeek 服务器"
                 width={600}
                 height={400}
